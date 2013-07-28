@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93FA43A517A4B3E7007155ED /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 93FA43A417A4B3E7007155ED /* main.c */; };
+		93FA43A717A4B3E7007155ED /* Postfix.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93FA43A617A4B3E7007155ED /* Postfix.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93FA439F17A4B3E7007155ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				93FA43A717A4B3E7007155ED /* Postfix.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		93FA43A117A4B3E7007155ED /* Postfix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Postfix; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FA43A417A4B3E7007155ED /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		93FA43A617A4B3E7007155ED /* Postfix.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Postfix.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93FA439E17A4B3E7007155ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93FA439817A4B3E7007155ED = {
+			isa = PBXGroup;
+			children = (
+				93FA43A317A4B3E7007155ED /* Postfix */,
+				93FA43A217A4B3E7007155ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93FA43A217A4B3E7007155ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93FA43A117A4B3E7007155ED /* Postfix */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93FA43A317A4B3E7007155ED /* Postfix */ = {
+			isa = PBXGroup;
+			children = (
+				93FA43A417A4B3E7007155ED /* main.c */,
+				93FA43A617A4B3E7007155ED /* Postfix.1 */,
+			);
+			path = Postfix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93FA43A017A4B3E7007155ED /* Postfix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FA43AA17A4B3E7007155ED /* Build configuration list for PBXNativeTarget "Postfix" */;
+			buildPhases = (
+				93FA439D17A4B3E7007155ED /* Sources */,
+				93FA439E17A4B3E7007155ED /* Frameworks */,
+				93FA439F17A4B3E7007155ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Postfix;
+			productName = Postfix;
+			productReference = 93FA43A117A4B3E7007155ED /* Postfix */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93FA439917A4B3E7007155ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jared Sorge";
+			};
+			buildConfigurationList = 93FA439C17A4B3E7007155ED /* Build configuration list for PBXProject "Postfix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93FA439817A4B3E7007155ED;
+			productRefGroup = 93FA43A217A4B3E7007155ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93FA43A017A4B3E7007155ED /* Postfix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93FA439D17A4B3E7007155ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FA43A517A4B3E7007155ED /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		93FA43A817A4B3E7007155ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93FA43A917A4B3E7007155ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93FA43AB17A4B3E7007155ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93FA43AC17A4B3E7007155ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93FA439C17A4B3E7007155ED /* Build configuration list for PBXProject "Postfix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FA43A817A4B3E7007155ED /* Debug */,
+				93FA43A917A4B3E7007155ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93FA43AA17A4B3E7007155ED /* Build configuration list for PBXNativeTarget "Postfix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FA43AB17A4B3E7007155ED /* Debug */,
+				93FA43AC17A4B3E7007155ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93FA439917A4B3E7007155ED /* Project object */;
+}
